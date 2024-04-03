@@ -9,7 +9,7 @@ app.use(express.json());
 
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Book store App started and waitmg for client requests!')
 })
 
 // mongodb confiq here
